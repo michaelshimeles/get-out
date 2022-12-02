@@ -1,9 +1,9 @@
-.rewards {
+.rewards-refer {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 2rem;
-
+    margin-bottom: 3rem;
     &__text {
         font-size: 1.25rem;
         font-family: "Archivo";
@@ -14,11 +14,12 @@
     &__text-bottom {
         font-size: .875rem;
         font-family: "Archivo";
+        font-weight: bold;
     }
 
 }
 
-.rewards__button {
+.rewards-refer__button {
     width: 6rem;
     height: 2.2rem;
     background-color: #135582;
