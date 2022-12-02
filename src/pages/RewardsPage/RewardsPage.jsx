@@ -1,11 +1,12 @@
 import "./RewardsPage.scss"
 import RewardsHeader from "../../components/RewardsHeader/RewardsHeader.jsx"
+import RewardsRefer from "../../components/RewardsRefer/RewardsRefer"
 
 const RewardsPage = () => {
     return (
         <>
-        {/* <p>Rewards Page</p> */}
-        <RewardsHeader />
+            <RewardsHeader />
+            <RewardsRefer />
         </>
     )
 }
