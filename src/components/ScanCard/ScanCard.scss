@@ -1,0 +1,20 @@
+.scan-card {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: fixed;
+  padding-right: 0.9375rem;
+  top: 45rem;
+  left: 13rem;
+
+  &__container {
+    background-color: #135582;
+    border-radius: 35.01px;
+
+    > p {
+      color: white;
+      padding: 1rem 2.5938rem;
+      font-size: 20px;
+    }
+  }
+}
