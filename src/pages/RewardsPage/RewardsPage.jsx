@@ -2,6 +2,7 @@ import RewardsFooter from "../../components/RewardsFooter/RewardsFooter";
 import RewardsCard from "../../components/RewardsCard/RewardsCard";
 import "./RewardsPage.scss";
 import RewardsHeader from "../../components/RewardsHeader/RewardsHeader.jsx"
+import RewardsRefer from "../../components/RewardsRefer/RewardsRefer"
 
 
 const RewardsPage = () => {
@@ -10,6 +11,7 @@ const RewardsPage = () => {
     <RewardsHeader />
       <div className="rewardspage__card">
         <RewardsCard />
+        <RewardsRefer/>
       </div>
       <RewardsFooter />
     </div>
