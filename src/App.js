@@ -1,30 +1,16 @@
-import NavBar from "./components/NavBar/NavBar";
-import HeroSection from "./components/HeroSection/HeroSection";
-import ScanCard from "./components/ScanCard/ScanCard";
-import Footer from "./components/Footer/Footer";
-import Card from "./components/Card/Card.jsx";
-
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.scss";
+import HomePage from "./pages/HomePage/HomePage";
+import RewardsPage from "./pages/RewardsPage/RewardsPage";
+
 function App() {
   return (
-    <div className="app">
-      <NavBar />
-
-      <HeroSection />
-
-      <ScanCard />
-      <Footer />
-      <div className="app__cards">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-      </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/rewards" element={<RewardsPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
