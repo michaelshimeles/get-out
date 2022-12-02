@@ -1,0 +1,80 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1.0625rem;
+  box-shadow: 7px 8px 16px 0 rgba(143, 155, 179, 0.2);
+
+  &__phone {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 0.9375rem;
+    padding-top: .9281rem;
+  }
+
+  &__time {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__stats {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4375rem;
+  }
+
+  &__title {
+    font-size: 1rem;
+    padding-top: 2.8125rem;
+  }
+
+  &__text {
+    font-family: "Montserrat";
+    font-weight: bolder;
+    color: #135582;
+  }
+
+  &__section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding-top: 1.625rem;
+  }
+
+  &__navs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    &-left {
+      > p {
+        font-family: "Archivo";
+        font-weight: bold;
+        color: #135582;
+        border-bottom: 4px solid #135582;
+        padding-bottom: 0.8125rem;
+      }
+    }
+
+    &-right {
+      > p {
+        font-family: "Archivo";
+        font-weight: bold;
+        color: #135582;
+        border-bottom: 4px solid white;
+        padding-bottom: 0.8125rem;
+      }
+    }
+
+    &-icon {
+      padding-right: 0.9375rem;
+    }
+  }
+}
