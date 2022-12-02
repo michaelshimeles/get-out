@@ -11,6 +11,7 @@ import on_the_go from "../../assets/images/on-to-go.svg";
 import foryou from "../../assets/images/foryou.svg";
 
 const HomePage = () => {
+  window.scrollTo(0, 0);
   return (
     <div className="homepage">
       <NavBar />

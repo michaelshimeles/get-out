@@ -12,7 +12,7 @@ function RewardsRefer() {
           <div className="rewards-refer__button-text">Copy Link</div>
         </div>
         <p className="rewards-refer__text-bottom">Share on social media</p>
-        <img src={socials} />
+        <img src={socials} alt="social media icons"/>
       </section>
     </>
   );

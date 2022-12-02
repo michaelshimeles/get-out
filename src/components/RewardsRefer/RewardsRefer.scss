@@ -1,3 +1,5 @@
+@use "../../styles//partials/variables" as *;
+
 .rewards-refer {
   display: flex;
   flex-direction: column;
@@ -22,7 +24,7 @@
 .rewards-refer__button {
   width: 6rem;
   height: 2.2rem;
-  background-color: #135582;
+  background-color: $primary-color;
   color: #ffffff;
   display: flex;
   justify-content: center;

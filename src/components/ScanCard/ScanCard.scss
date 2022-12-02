@@ -1,3 +1,5 @@
+@use "../../styles//partials/variables" as *;
+
 .scan-card {
   display: flex;
   justify-content: flex-end;
@@ -9,7 +11,7 @@
   filter: drop-shadow(0px 4px 10px rgba(#000000, 25%) );
 
   &__container {
-    background-color: #135582;
+    background-color: $primary-color;
     border-radius: 35.01px;
 
     > p {
