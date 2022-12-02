@@ -4,7 +4,7 @@ import ScanCard from "../../components/ScanCard/ScanCard";
 import Footer from "../../components/Footer/Footer";
 import Card from "../../components/Card/Card.jsx";
 import "./HomePage.scss";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const HomePage = () => {
   return (
@@ -13,9 +13,9 @@ const HomePage = () => {
 
       <HeroSection />
 
-      <Link to="/rewards">
+      <NavLink to="/rewards">
         <ScanCard />
-      </Link>
+      </NavLink>
       <Footer />
       <div className="homepage__cards">
         <Card />
