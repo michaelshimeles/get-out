@@ -7,9 +7,8 @@ import "./HomePage.scss";
 import { NavLink } from "react-router-dom";
 import bday from "../../assets/images/bday.svg";
 import refferal from "../../assets/images/refferal.svg";
-import on_the_go from "../../assets/images/on-to-go.svg"
-import foryou from "../../assets/images/foryou.svg"
-
+import on_the_go from "../../assets/images/on-to-go.svg";
+import foryou from "../../assets/images/foryou.svg";
 
 const HomePage = () => {
   return (
@@ -29,6 +28,7 @@ const HomePage = () => {
           subheader={
             "Concerts, shows, events, festivals - GetOut Rewards has you covered. The gift that unlocks experiences."
           }
+          buttonText="Redeem"
         />
         <Card
           image={bday}
@@ -36,16 +36,19 @@ const HomePage = () => {
           subheader={
             "Did someone say birthday? Let us treat you! Enter your birthday information and we'll send you a special gift."
           }
+          buttonText="Learn More"
         />
         <Card
           image={refferal}
           header={"REFERRAL PROGRAM"}
           subheader={"Refer friends and get 10 stars for every sign up."}
+          buttonText="Learn More"
         />
         <Card
           image={foryou}
           header={"FOR YOU"}
           subheader={"Browse some rewards we think you'll love. "}
+          buttonText="Redeem"
         />
       </div>
     </div>
