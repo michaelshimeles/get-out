@@ -1,3 +1,5 @@
+@use "../../styles//partials/variables" as *;
+
 .rewards-footer {
   display: flex;
   justify-content: center;
@@ -7,7 +9,7 @@
   padding-right: 2.0625rem;
   position: fixed;
   bottom: 0rem;
-  background-color: white;
+  background-color: $footer-color;
   height: 5rem;
   filter: drop-shadow(0px 4px 4px rgba(#000000, 25%));
 
@@ -64,7 +66,7 @@
     > p {
       font-size: 0.75rem;
       font-family: "Archivo";
-      color: #135582;
+      color: $primary-color;
     }
   }
 

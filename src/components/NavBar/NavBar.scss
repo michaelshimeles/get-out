@@ -1,3 +1,5 @@
+@use "../../styles//partials/variables" as *;
+
 .header {
   display: flex;
   flex-direction: column;
@@ -40,7 +42,7 @@
   &__text {
     font-family: "Montserrat";
     font-weight: bolder;
-    color: #135582;
+    color: $primary-color;
   }
 
   &__section {
@@ -61,8 +63,8 @@
       > p {
         font-family: "Archivo";
         font-weight: bold;
-        color: #135582;
-        border-bottom: 4px solid #135582;
+        color: $primary-color;
+        border-bottom: 4px solid $primary-color;
         padding-bottom: 0.8125rem;
       }
     }
@@ -71,7 +73,7 @@
       > p {
         font-family: "Archivo";
         font-weight: bold;
-        color: #135582;
+        color: $primary-color;
         border-bottom: 4px solid white;
         padding-bottom: 0.8125rem;
       }
