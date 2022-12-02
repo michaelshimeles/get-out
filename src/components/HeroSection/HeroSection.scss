@@ -1,0 +1,63 @@
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 1.0625rem;
+
+  &__top {
+    padding-top: 1.3125rem;
+    padding-bottom: 0.9375rem;
+  }
+
+  &__star {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.125rem;
+
+    > h2 {
+      color: #135582;
+      font-weight: bold;
+      font-family: "inter";
+    }
+
+    &-balance {
+      font-size: 0.75rem;
+      color: #135582;
+      font-family: "Archivo";
+    }
+  }
+
+  &__bar {
+    width: 22.3125rem;
+    height: 4rem;
+    background-color: #0d6efd;
+    > p {
+      color: green;
+    }
+  }
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1.3125rem;
+    gap: 1.1875rem;
+    font-family: "inter";
+
+    &-left {
+      border: 2px solid #135582;
+      border-radius: 20px;
+      padding: 0.5rem 1.25rem;
+      color: #135582;
+    }
+
+    &-right {
+      background-color: rgba($color: #135582, $alpha: 0.7);
+      border-radius: 20px;
+      padding: 0.5rem 1.25rem;
+      color: white;
+    }
+  }
+}

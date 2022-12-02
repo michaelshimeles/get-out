@@ -9,17 +9,17 @@ const NavBar = () => {
     <header className="header">
       <div className="header__phone">
         <div className="header__time">
-          <img src={time} alt="time icon"/>
+          <img src={time} alt="time icon" />
         </div>
         <div className="header__stats">
           <div>
-            <img src={cellular} alt="cellular network icon"/>
+            <img src={cellular} alt="cellular network icon" />
           </div>
           <div>
-            <img src={wifi} alt="wifi icon"/>
+            <img src={wifi} alt="wifi icon" />
           </div>
           <div>
-            <img src={capacity} alt="battery status icon"/>
+            <img src={capacity} alt="battery status icon" />
           </div>
         </div>
       </div>
@@ -36,7 +36,7 @@ const NavBar = () => {
           </div>
         </div>
         <div className="header__navs-icon">
-          <img src={profile} alt="user profile icon"/>
+          <img src={profile} alt="user profile icon" />
         </div>
       </div>
     </header>
