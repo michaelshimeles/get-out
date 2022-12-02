@@ -1,0 +1,99 @@
+.rewards-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    // padding-left: 1.0625rem;
+    box-shadow: 7px 8px 16px 0 rgba(143, 155, 179, 0.2);
+    position: fixed;
+    width: 100%;
+    background-color: white;
+  
+    &__phone {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      padding-right: 0.9375rem;
+      padding-top: .9281rem;
+    }
+  
+    &__time {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-left: 1.0625rem;
+    }
+  
+    &__stats {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: .4375rem;
+      
+    }
+
+    &__container {
+        padding-top: 2.25rem;
+        display: flex;
+        
+    }
+
+    &__balance {
+        font-family: "Archivo";
+        font-weight: bold;
+        color: #135582;
+        margin-top: .3rem;
+        padding-left: 1.0625rem;
+    }
+
+    &__star {
+        height: .8rem;
+        margin: .4rem 0rem 0rem .4rem;
+    }
+
+    &__title {
+        margin-left: 6.3rem;
+        font-family: "Montserrat";
+        font-weight: bolder;
+        color: #135582;
+        font-size: 1.5rem;
+        
+    }
+
+    &__navs {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+        width: 100%;
+        margin-top: 1.8rem;
+    
+        &-left {
+          > p {
+            font-family: "Archivo";
+            font-weight: bold;
+            color: #135582;
+            border-bottom: 4px solid #135582;
+            padding-bottom: 0.8125rem;
+            padding-left: 2.4rem;
+            padding-right: 2.5rem;
+          }
+        }
+    
+        &-right {
+          > p {
+            font-family: "Archivo";
+            font-weight: bold;
+            color: #135582;
+            border-bottom: 4px solid white;
+            padding-bottom: 0.8125rem;
+            padding-right: 2.5rem;
+          }
+        }
+    
+        &-icon {
+          padding-right: 0.9375rem;
+        }
+    }
+}
