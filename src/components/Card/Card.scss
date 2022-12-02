@@ -1,0 +1,57 @@
+.card {
+
+    margin: 1rem 1rem 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 22.5rem;
+    border-radius: .3rem;
+    box-shadow: 0rem .25rem 18px lightgrey;
+
+    &__image {
+        // background-color: grey;
+        border-radius: .3rem .3rem 0rem 0rem;
+        height: 12.5rem;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__container {
+        width: 18rem;
+        margin-top: .5rem;
+    }
+
+    &__subtitle {
+        margin-top: .5rem;
+        padding: 1rem 0rem .5rem 0rem; 
+        color: #135582;
+        font-size: 1.3rem;
+        font-family: "Archivo";
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    &__text {
+        font-size: .875rem;
+        color: #6c757d;
+        font-family: "Archivo";
+    }
+
+    &__button {
+        width: 6rem;
+        height: 2.2rem;
+        background-color: #135582;
+        ;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 1.8rem;
+        margin-top: 1rem;
+    }
+
+    &__button-text {
+        font-size: .875rem;
+        font-family: "Archivo";
+    }
+}
