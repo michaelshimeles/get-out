@@ -1,19 +1,17 @@
 import "./Card.scss";
-import greyBox from "../../assets/images/Frame 155 (1).png";
 
-function Card() {
+function Card( {image, header, subheader}) {
   return (
     <>
       <div className="card">
         <div className="card__image">
-          <img src={greyBox} alt="greybox" />
+          <img src={image} alt="greybox" />
         </div>
 
         <div className="card__container">
-          <h2 className="card__subtitle">subhead</h2>
+          <h2 className="card__subtitle">{header}</h2>
           <p className="card__text">
-            Browse some rewards we think you'll love.Browse some rewards we
-            think you'll love.
+            {subheader}
           </p>
 
           <div className="card__button">
