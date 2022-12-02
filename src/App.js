@@ -14,7 +14,16 @@ function App() {
 
       <ScanCard />
       <Footer />
-      <Card />
+      <div className="app__cards">
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
