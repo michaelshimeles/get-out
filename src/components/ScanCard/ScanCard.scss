@@ -4,8 +4,9 @@
   align-items: center;
   position: fixed;
   padding-right: 0.9375rem;
-  top: 45rem;
-  left: 13rem;
+  top: 43.5rem;
+  left: 12rem;
+  filter: drop-shadow(0px 4px 10px rgba(#000000, 25%) );
 
   &__container {
     background-color: #135582;
@@ -15,6 +16,7 @@
       color: white;
       padding: 1rem 2.5938rem;
       font-size: 20px;
+      font-family: "inter";
     }
   }
 }

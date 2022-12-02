@@ -1,5 +1,6 @@
 import "./HeroSection.scss"
 import star from "../../assets/icons/star.svg"
+import progressbar from "../../assets/icons/progressbar.svg"
 const HeroSection = () => {
     return (
         <div className="hero">
@@ -11,6 +12,7 @@ const HeroSection = () => {
                 <p className="hero__star-balance">Star Balance</p>
             </div>
             <div className="hero__bar">
+                <img src={progressbar} />
             </div>
             <div className="hero__button">
                 <div className="hero__button-left">

@@ -1,0 +1,108 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 1.6875rem;
+  padding-right: 2.0625rem;
+  position: fixed;
+  bottom: 0rem;
+  background-color: white;
+  height: 5rem;
+  filter: drop-shadow(0px 4px 4px rgba(#000000, 25%));
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+  }
+
+  &__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    > p {
+      font-size: 0.75rem;
+      font-family: "Archivo";
+      color: #135582;
+    }
+  }
+
+  &__scan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    > p {
+      font-size: 0.75rem;
+      font-family: "Archivo";
+      color: #333333;
+    }
+  }
+
+  &__offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    > p {
+      font-size: 0.75rem;
+      font-family: "Archivo";
+      color: #333333;
+    }
+  }
+
+  &__bazaar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    > img {
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+
+    > p {
+      font-size: 0.75rem;
+      font-family: "Archivo";
+      color: #333333;
+    }
+  }
+
+  &__bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

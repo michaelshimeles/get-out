@@ -4,7 +4,8 @@
   justify-content: center;
   align-items: flex-start;
   padding-left: 1.0625rem;
-
+  padding-bottom: 1.9375rem;
+  padding-top: 12rem;
   &__top {
     padding-top: 1.3125rem;
     padding-bottom: 0.9375rem;
@@ -32,7 +33,6 @@
   &__bar {
     width: 22.3125rem;
     height: 4rem;
-    background-color: #0d6efd;
     > p {
       color: green;
     }
