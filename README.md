@@ -1,4 +1,4 @@
-# Get Out (2nd Place In Hackathon)#
+# Get Out (2nd Place In Hackathon)
 
 This project was created for a 24-hour hackathon by BrainStation and LoyaltyOne (the Air Miles company).
 
