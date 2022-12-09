@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Get Out #
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created for a 24-hour hackathon by BrainStation and LoyaltyOne (the Air Miles company).
 
-## Available Scripts
+Our team, **GoTo Technologies**, built a MVP called Get Out in just 24 hours. We're proud to say that we came in **2nd place in the competition**.
 
-In the project directory, you can run:
+If you'd like to check out our project, please make sure to view it in a width of 390px for the best experience.
 
-### `npm start`
+<p align="center">
+<img width="388" alt="Screenshot 2022-12-09 at 1 14 16 PM" src="https://user-images.githubusercontent.com/69605071/206766516-9c913f20-1045-4bce-bb29-5b1a4ed3d053.png">              
+<img width="388" alt="Screenshot 2022-12-09 at 1 15 45 PM" src="https://user-images.githubusercontent.com/69605071/206766670-93b0e791-f15d-4829-b355-4796859612fe.png">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Getting Started
+To get started with the project, follow these instructions:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Tech Stack
+1. React
+2. HTML
+3. SCSS
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone or download the repository.
+We hope you enjoy using Get Out! Let us know if you have any questions or feedback.
